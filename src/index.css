@@ -1,0 +1,99 @@
+.title {
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Styling for timer and timer form */
+.timer-card {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 15%;
+    border: 1px solid dimgrey;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.header {
+    text-align: left;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.meta {
+    text-align: left;
+    font-size: smaller;
+    color: dimgrey;
+}
+
+.timer-description {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.black {
+    border-color: black;
+    color: black;
+}
+
+    .black:hover {
+        background: black;
+        color: white;
+    }
+
+.green {
+    border-color: #4CAF50;
+    color: green;
+}
+
+    .green:hover {
+        background: #4CAF50;
+        color: white;
+    }
+
+
+.red {
+    border-color: #f44336;
+    color: red;
+}
+
+.add-timer {
+    text-align: center;
+}
+
+.red:hover {
+    background: #f44336;
+    color: white;
+}
+
+.field {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    padding: 14px 28px;
+    display: block;
+    margin: auto;
+}
