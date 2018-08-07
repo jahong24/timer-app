@@ -12,7 +12,13 @@ export default class EditableTimerList extends Component {
         elapsed={timer.elapsed}
         runningSince={timer.runningSince}
       />
-    ));
-    return <div id="timers">{timers}</div>;
+      ));
+
+      return (
+        <div id="timers">
+        {timers}
+        </div>
+      );
+
+    }
   }
-}

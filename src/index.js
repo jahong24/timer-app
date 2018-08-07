@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ToggleableTimerForm from './components/toggleableTimerForm';
+import TimersDashboard from './components/timersDashboard';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<ToggleableTimerForm />, document.getElementById('root'));
+ReactDOM.render(<TimersDashboard />, document.getElementById('root'));
 registerServiceWorker();
