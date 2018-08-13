@@ -32,8 +32,13 @@ body {
     color: dimgrey;
 }
 
-.timer-description {
+.description {
     text-align: center;
+}
+
+.misc {
+    text-align: right;
+    cursor: pointer;
 }
 
 .btn {
@@ -72,13 +77,13 @@ body {
     color: red;
 }
 
+    .red:hover {
+        background: #f44336;
+        color: white;
+    }
+
 .add-timer {
     text-align: center;
-}
-
-.red:hover {
-    background: #f44336;
-    color: white;
 }
 
 .field {
